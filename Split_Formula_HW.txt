@@ -1,0 +1,2 @@
+=LEFT(R2,SEARCH("/",R2)-1)
+=RIGHT(R2,LEN(R2)-SEARCH("/",R2))
